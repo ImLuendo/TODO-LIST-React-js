@@ -1,0 +1,41 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid grey;
+    padding: 15px;
+    height: 350PX;
+    justify-content: center;
+    border-radius:   15px;
+}
+
+h2 {
+
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+input {
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 8px;
+    border: 1px solid black;
+}
+
+.buttonForm {
+    border-radius: 15px;
+    padding:  5px;
+    background-color: rgb(27, 41, 27);;
+    border: none;
+    color: white;
+}
+
+.buttonForm:hover {
+    background-color: black;
+}

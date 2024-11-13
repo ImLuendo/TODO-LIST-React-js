@@ -1,0 +1,1 @@
+export const LIST_OF_TODO = ["Achat pain", "Demander permission", "Visite Medicale"];

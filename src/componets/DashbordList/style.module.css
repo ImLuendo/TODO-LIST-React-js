@@ -1,0 +1,56 @@
+.Container {
+    width: 800px;
+    margin: auto;
+    border: 1px solid rgb(27, 41, 27);
+    background-color: rgb(237, 240, 237);
+    border-radius: 8px;
+    /* overflow: hidden; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #1b291b;
+}
+
+thead th {
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ffffff33;
+}
+
+/* tbody tr {
+    color: white;
+} */
+
+tbody td {
+    padding: 5px;
+    border-bottom: 1px solid #ffffff33;
+    text-align: left;
+}
+
+/* tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+} */
+
+button {
+    padding: 6px 12px;
+    margin-right: 8px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:last-child {
+    background-color: #252525;
+}
+
+button:hover {
+    opacity: 0.8;
+}
